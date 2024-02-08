@@ -245,7 +245,7 @@ function insertTable {
         insertValue+="${colValue}:"
     done
 
-    dir="C:/Users/Haidy/Desktop/Shell/databases/haidy/brother.txt"
+    #dir="C:/Users/Haidy/Desktop/Shell/databases/haidy/brother.txt"
     dir="$PWD/${tableName}.txt"
     echo "${insertValue%:}" >> $dir
     # echo "The value inserted successfully"
